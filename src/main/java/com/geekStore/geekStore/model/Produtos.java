@@ -30,6 +30,7 @@ public class Produtos
 	@Size (min = 10, max = 1500)
 	private String descricao;
 	
+	@NotNull
 	private int anoLancamento;
 	
 	@NotNull 
